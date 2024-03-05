@@ -126,35 +126,3 @@ gsap.from([featuresContentTitle],{
 
 
 
-
-/*
-
-const featuresTl = gsap.timeline();
-
-
-featuresTl
-.from([featuresContentTitle, featuresContentP,featuresContentButton],
- {
-  opacity:0,
-  y:40,
-  duration:0.6,
-  ease:"power3.out",
-  stagger:{
-    amount:0.2
-  }
- })
- .from(featuresList, {
-  delay: -0.4,
-  opacity:0,
-  y:40,
-  duration:0.6,
-  ease:"power3.out",
-  stagger:{
-    amount:0.4
-  }
- });
-
-
- console.log(featuresList);
-
-*/
